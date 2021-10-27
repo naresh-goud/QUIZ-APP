@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function Trivia({
   data,
-  setTimeout,
+  setStop,
   questionNumber,
   setQuestionNumber,
 }) {
@@ -17,6 +17,9 @@ export default function Trivia({
   const handleClick = (a) => {
     setSelectedAnswer(a);
     setClassName("answer active");
+    setTimeout(() => {
+      setClassName(a.correct ? "answer correct" : "answer wrong");
+    }, 3000);
   };
 
   return (
