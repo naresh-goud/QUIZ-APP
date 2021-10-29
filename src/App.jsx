@@ -13,22 +13,22 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "Rolex is a company that specializes in what type of product?",
+      question: "Which is city is the capital of INDIA",
       answers: [
         {
-          text: "Phone",
+          text: "Bengaluru",
           correct: false,
         },
         {
-          text: "Watches",
+          text: "New Delhi",
           correct: true,
         },
         {
-          text: "Food",
+          text: "Chennai",
           correct: false,
         },
         {
-          text: "Cosmetic",
+          text: "Kolkata",
           correct: false,
         },
       ],
@@ -75,6 +75,28 @@ function App() {
         {
           text: "Daniel Red Cliff",
           correct: true,
+        },
+      ],
+    },
+    {
+      id: 4,
+      question: "Which is city is the capital of INDIA",
+      answers: [
+        {
+          text: "Bengaluru",
+          correct: false,
+        },
+        {
+          text: "New Delhi",
+          correct: true,
+        },
+        {
+          text: "Chennai",
+          correct: false,
+        },
+        {
+          text: "Kolkata",
+          correct: false,
         },
       ],
     },

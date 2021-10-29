@@ -17,9 +17,9 @@ export default function Trivia({
   const [correctAnswer] = useSound(correct);
   const [wrongAnswer] = useSound(wrong);
 
-  //   useEffect(() => {
-  //     letsPLay();
-  //   }, [letsPLay]);
+  useEffect(() => {
+    letsPLay();
+  }, [letsPLay]);
 
   useEffect(() => {
     setQuestion(data[questionNumber - 1]);
