@@ -35,22 +35,23 @@ function App() {
     },
     {
       id: 2,
-      question: "When did the website `Facebook` launch?",
+      question:
+        "To make your website mobile friendly, you can make your website",
       answers: [
         {
-          text: "2004",
+          text: "Responsive",
           correct: true,
         },
         {
-          text: "2005",
+          text: "Reactive",
           correct: false,
         },
         {
-          text: "2006",
+          text: "Fast Loading",
           correct: false,
         },
         {
-          text: "2007",
+          text: "Light",
 
           correct: false,
         },
@@ -58,44 +59,286 @@ function App() {
     },
     {
       id: 3,
-      question: "Who played the character of harry potter in movie?",
+      question: "What does CSS stand for",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "Current Style Sheets",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "Current Sheets Style",
           correct: false,
         },
         {
-          text: "Denzel Washington",
+          text: "Cascading Style Sheets",
           correct: false,
         },
         {
-          text: "Daniel Red Cliff",
+          text: " Cascading Sheets Style",
           correct: true,
         },
       ],
     },
     {
       id: 4,
-      question: "Which is city is the capital of INDIA",
+      question: "Which is not the browser?",
       answers: [
         {
-          text: "Bengaluru",
+          text: "Internet Explorer",
           correct: false,
         },
         {
-          text: "New Delhi",
+          text: "Google",
           correct: true,
         },
         {
-          text: "Chennai",
+          text: "Opera",
           correct: false,
         },
         {
-          text: "Kolkata",
+          text: "Mozila",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question: "What is HTML",
+      answers: [
+        {
+          text: "Hyper Text Make Language",
+          correct: false,
+        },
+        {
+          text: "Hyper Text Makeover Language",
+          correct: false,
+        },
+        {
+          text: "Hyper Text Markup Language",
+          correct: true,
+        },
+        {
+          text: "Hyper Text Make-in Language",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 6,
+      question: "Which Language used for creating web pages",
+      answers: [
+        {
+          text: "PASCAL",
+          correct: false,
+        },
+        {
+          text: "C",
+          correct: false,
+        },
+        {
+          text: "HTML",
+          correct: true,
+        },
+        {
+          text: "BASIC",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 7,
+      question: "The tag used for adding images to HTML",
+      answers: [
+        {
+          text: "<FONT>",
+          correct: false,
+        },
+        {
+          text: "<HR>",
+          correct: false,
+        },
+        {
+          text: "<IMG>",
+          correct: true,
+        },
+        {
+          text: "<HI>",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 8,
+      question: "SQL stands for ",
+      answers: [
+        {
+          text: "Structured Query Language",
+          correct: true,
+        },
+        {
+          text: "Statistical Query Language",
+          correct: false,
+        },
+        {
+          text: "Superior Questions Lot",
+          correct: false,
+        },
+        {
+          text: "Standard Query Lot",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 9,
+      question: "Long form of www",
+      answers: [
+        {
+          text: "world wide window",
+          correct: false,
+        },
+        {
+          text: "world wide web",
+          correct: true,
+        },
+        {
+          text: "world width web",
+          correct: false,
+        },
+        {
+          text: "web world wide",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 10,
+      question: "CEO of Google",
+      answers: [
+        {
+          text: "Sathya Nadella",
+          correct: false,
+        },
+        {
+          text: "Sundar Pichai",
+          correct: true,
+        },
+        {
+          text: "Elon Mask",
+          correct: false,
+        },
+        {
+          text: "jeff bezos",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 11,
+      question: "plain JawaScript is called",
+      answers: [
+        {
+          text: "Strawberry JS",
+          correct: false,
+        },
+        {
+          text: "Vanilla JS",
+          correct: true,
+        },
+        {
+          text: "Chocolate JS",
+          correct: false,
+        },
+        {
+          text: "Neapolitan JS",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 12,
+      question: "Which team won 2021 IPL trophy",
+      answers: [
+        {
+          text: "Kolkata Knight Riders",
+          correct: false,
+        },
+        {
+          text: "Delhi Capitals",
+          correct: false,
+        },
+        {
+          text: "Chennai Supper Kings",
+          correct: true,
+        },
+        {
+          text: "Royal Challengers Bengaluru",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 13,
+      question: "Who is the captain of team India in ICC T20 world cup 2021?",
+      answers: [
+        {
+          text: "Rohit Sharma",
+          correct: false,
+        },
+        {
+          text: "M S Dhoni",
+          correct: false,
+        },
+        {
+          text: "Virat Kohli",
+          correct: true,
+        },
+        {
+          text: "K L Rahul",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 14,
+      question: "How many colours are there in Rainbow",
+      answers: [
+        {
+          text: "5",
+          correct: false,
+        },
+        {
+          text: "6",
+          correct: false,
+        },
+        {
+          text: "7",
+          correct: true,
+        },
+        {
+          text: "8",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 15,
+      question: "Character Name of prabhas in the film Bahubali",
+      answers: [
+        {
+          text: "Ballala Deva",
+          correct: false,
+        },
+        {
+          text: "Bahubali",
+          correct: true,
+        },
+        {
+          text: "Bijjala Deva",
+          correct: false,
+        },
+        {
+          text: "Kattappa",
           correct: false,
         },
       ],
@@ -105,21 +348,21 @@ function App() {
   const moneyPyramid = useMemo(
     () =>
       [
-        { id: 1, amount: "$ 100" },
-        { id: 2, amount: "$ 200" },
-        { id: 3, amount: "$ 300" },
-        { id: 4, amount: "$ 500" },
-        { id: 5, amount: "$ 1000" },
-        { id: 6, amount: "$ 2000" },
-        { id: 7, amount: "$ 4000" },
-        { id: 8, amount: "$ 8000" },
-        { id: 9, amount: "$ 16000" },
-        { id: 10, amount: "$ 32000" },
-        { id: 11, amount: "$ 64000" },
-        { id: 12, amount: "$ 125000" },
-        { id: 13, amount: "$ 250000" },
-        { id: 14, amount: "$ 500000" },
-        { id: 15, amount: "$ 1000000" },
+        { id: 1, amount: "₹ 1,000" },
+        { id: 2, amount: "₹ 2,000" },
+        { id: 3, amount: "₹ 3,000" },
+        { id: 4, amount: "₹ 5,000" },
+        { id: 5, amount: "₹ 10,000" },
+        { id: 6, amount: "₹ 20,000" },
+        { id: 7, amount: "₹ 40,000" },
+        { id: 8, amount: "₹ 80,000" },
+        { id: 9, amount: "₹ 1,60,000" },
+        { id: 10, amount: "₹ 3,20,000" },
+        { id: 11, amount: "₹ 6,40,000" },
+        { id: 12, amount: "₹ 12,50,000" },
+        { id: 13, amount: "₹ 25,00,000" },
+        { id: 14, amount: "₹ 50,00,000" },
+        { id: 15, amount: "₹ 1 Crore" },
       ].reverse(),
     []
   );
